@@ -1,0 +1,8 @@
+numpy>=1.26
+phycv>=1.2.6        # the reference implementation (tests and benchmark); pulls in torch, kornia, opencv
+# cupy-cuda12x      # install the CuPy build for your CUDA version; without it the code runs on NumPy
+pytest>=8.0
+matplotlib>=3.8     # notebook
+pandas>=2.0         # notebook
+sympy>=1.12         # notebook
+jupyter>=1.0        # notebook
